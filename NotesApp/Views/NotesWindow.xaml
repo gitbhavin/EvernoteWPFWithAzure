@@ -134,7 +134,7 @@
         <Grid>
             <StackPanel>
                 <TextBox Margin="10" Text="{Binding SelectedNote.Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-                <RichTextBox Height="320" x:Name="contentReachTextBox"
+                <RichTextBox Margin="10 0 10 10" Height="320" x:Name="contentReachTextBox"
                          SelectionChanged="contentReachTextBox_SelectionChanged"
                          TextChanged="contentReachTextBox_TextChanged"/>
             </StackPanel>
