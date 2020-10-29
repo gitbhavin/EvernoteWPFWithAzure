@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="NotesApp.Views.Controls.NoteUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NotesApp.Views.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="400">
+    <StackPanel Margin="10">
+        <TextBlock x:Name="noteTitleTextBlock"
+                   Text="{Binding Title}"
+                   FontWeight="Bold"
+                   FontSize="20"/>
+         <TextBlock x:Name="noteEditedTextBlock"
+                   Text="{Binding UpdatedTime,StringFormat='{}{0:MM-dd-yyyy}'}"
+                    Foreground="Blue"
+                   FontSize="15"/>
+        <TextBlock x:Name="noteContentTextBlock"
+                   Text="{Binding Title}"
+                   FontSize="15"
+                   TextWrapping="Wrap"/>
+    </StackPanel>
+</UserControl>

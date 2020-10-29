@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3EHUHBP</Machine>
+    <WindowsUser>bhavi</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b9ef15f3-2add-4abf-bfa7-1b2b211ccc58</PackageIdentityName>
+    <PackageIdentityPublisher>CN=bhavi</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\bin\AnyCPU\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp_Packaging\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Azure.Core.1.4.1\lib\netstandard2.0\Azure.Core.dll">
+      <PackagePath>NotesApp\Azure.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Azure.Storage.Blobs.12.6.0\lib\netstandard2.0\Azure.Storage.Blobs.dll">
+      <PackagePath>NotesApp\Azure.Storage.Blobs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Azure.Storage.Common.12.5.2\lib\netstandard2.0\Azure.Storage.Common.dll">
+      <PackagePath>NotesApp\Azure.Storage.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll">
+      <PackagePath>NotesApp\Microsoft.Azure.KeyVault.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Microsoft.Azure.Mobile.Client.4.1.2\lib\net45\Microsoft.Azure.Mobile.Client.dll">
+      <PackagePath>NotesApp\Microsoft.Azure.Mobile.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>NotesApp\Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll">
+      <PackagePath>NotesApp\Microsoft.Expression.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\WindowsAzure.Storage.9.3.3\lib\net45\Microsoft.WindowsAzure.Storage.dll">
+      <PackagePath>NotesApp\Microsoft.WindowsAzure.Storage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll">
+      <PackagePath>NotesApp\Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\sqlite-net-pcl.1.7.335\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>NotesApp\SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.bundle_green.2.0.3\lib\net461\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>NotesApp\SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.core.2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>NotesApp\SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.bundle_green.2.0.3\lib\net461\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>NotesApp\SQLitePCLRaw.nativelibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.provider.dynamic_cdecl.2.0.3\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>NotesApp\SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll">
+      <PackagePath>NotesApp\System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Diagnostics.DiagnosticSource.4.6.0\lib\net46\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>NotesApp\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll">
+      <PackagePath>NotesApp\System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll">
+      <PackagePath>NotesApp\System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>NotesApp\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Text.Encodings.Web.4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>NotesApp\System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Text.Json.4.6.0\lib\net461\System.Text.Json.dll">
+      <PackagePath>NotesApp\System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>NotesApp\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll">
+      <PackagePath>NotesApp\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll">
+      <PackagePath>NotesApp\System.Windows.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.3\runtimes\win-x86\native\e_sqlite3.dll">
+      <PackagePath>NotesApp\runtimes\win-x86\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.3\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>NotesApp\runtimes\win-x64\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.3\runtimes\win-arm\native\e_sqlite3.dll">
+      <PackagePath>NotesApp\runtimes\win-arm\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp\bin\Debug\NotesApp.exe">
+      <PackagePath>NotesApp\NotesApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bhavi\Desktop\Bhavin\WPF\Udemy\MVVM\AZURE\NotesApp\NotesApp\bin\Debug\NotesApp.exe.config">
+      <PackagePath>NotesApp\NotesApp.exe.config</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
